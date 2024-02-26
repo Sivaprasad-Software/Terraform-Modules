@@ -3,7 +3,7 @@ resource "aws_instance" "VM" {
     instance_type = var.instance_type
     key_name = var.key_name_value
     tags = {
-      Name = "test-vm"
+      Name = "terraform-vm"
     }
   
 }
